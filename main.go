@@ -12,5 +12,10 @@ func main() {
 	name := utils.WelcomeUser()
 	fmt.Println(name)
 
-	games.IsEvenGame()
+	result := games.IsEvenGame()
+	if result {
+		fmt.Printf("Congratulations, %s!\n", name)
+	} else {
+		fmt.Printf("Let's try again, %s!\n", name)
+	}
 }
