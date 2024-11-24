@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"mindGames/games"
 	"mindGames/utils"
 )
 
@@ -10,4 +11,6 @@ func main() {
 
 	name := utils.WelcomeUser()
 	fmt.Println(name)
+
+	games.IsEvenGame()
 }
