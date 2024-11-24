@@ -12,7 +12,7 @@ func main() {
 	name := utils.WelcomeUser()
 	fmt.Println(name)
 
-	result := games.IsEvenGame()
+	result := games.EvenGameRun()
 	if result {
 		fmt.Printf("Congratulations, %s!\n", name)
 	} else {

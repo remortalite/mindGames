@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func IsEvenGame() bool {
+func EvenGameRun() bool {
 	fmt.Println("Answer 'yes' if the number is even, otherwise answer 'no'.")
 
 	wins := 0
